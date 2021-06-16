@@ -5,7 +5,7 @@ For example, search on Ebay:
 `curl curl https://www.ebay.com/sch/i.html?_nkw=GTX+970+4GB -o some.html` 
 
 Then `egrep -o >[$][+-]?[0-9]{1,3}(?:,?[0-9]{3})*\.[0-9]{2}<  some.html`:
->$127.25<
+`>$127.25<
 >$220.00<
 >$133.41<
 >$150.50<
@@ -67,7 +67,7 @@ Then `egrep -o >[$][+-]?[0-9]{1,3}(?:,?[0-9]{3})*\.[0-9]{2}<  some.html`:
 >$229.99<
 >$265.00<
 >$269.99<
->$662.86<
+>$662.86<`
 
 or with Python:
 ```
